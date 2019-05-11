@@ -1,0 +1,195 @@
+\hypertarget{class_production}{}\doxysection{Production Class Reference}
+\label{class_production}\index{Production@{Production}}
+
+
+{\ttfamily \#include $<$production.\+h$>$}
+
+Inheritance diagram for Production\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_production}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_production_a12c7c685be71ed51ac10f7d0284e8d4f}{Production}} ()
+\item 
+void \mbox{\hyperlink{class_production_a5eea7af1f4949832bcc0c019f420d655}{buy\+Wood}} ()
+\item 
+void \mbox{\hyperlink{class_production_adf62fb3241254aa3412ed9a9d1fb27a2}{buy\+Graphite}} ()
+\item 
+bool \mbox{\hyperlink{class_production_a5f5c38b7f3f7b23f9029d562c7e53025}{disable\+\_\+buy\+Wood}} ()
+\item 
+bool \mbox{\hyperlink{class_production_a4c87c63f0fdc741f9185dcda6793463e}{disable\+\_\+buy\+Graphite}} ()
+\item 
+void \mbox{\hyperlink{class_production_a4a9bbd94b71b1d24d836d9ad79bed97b}{calculate\+Prices}} ()
+\item 
+void \mbox{\hyperlink{class_production_a42c46b93e65cb3f84db76562a27d44f6}{decrease\+Wood}} ()
+\item 
+void \mbox{\hyperlink{class_production_aa5180ed4aac0e3d8ecec30596c9b1751}{decrease\+Graphite}} ()
+\item 
+double \mbox{\hyperlink{class_production_a8991aa503f8d94ae01ff9b7f08043c58}{get\+Wood}} ()
+\item 
+void \mbox{\hyperlink{class_production_ad3ebe0056885c80b4fce4f13d449fe4a}{set\+Wood}} (double)
+\item 
+double \mbox{\hyperlink{class_production_ad8e6b675848c58fcf04e214e383a87fd}{get\+Graphite}} ()
+\item 
+void \mbox{\hyperlink{class_production_ac736ce575ed9305158455109cf32fae1}{set\+Graphite}} (double)
+\item 
+double \mbox{\hyperlink{class_production_a70bbadd925940b1aba0d6c34be50ad39}{get\+Priceof\+Wood}} ()
+\item 
+void \mbox{\hyperlink{class_production_a6419877e3731ea2729064ae356294944}{set\+Priceof\+Wood}} (double)
+\item 
+double \mbox{\hyperlink{class_production_a01b5f30d1f8b8495acdd2f82a10fcca0}{get\+Priceof\+Graphite}} ()
+\item 
+void \mbox{\hyperlink{class_production_aa51b01bb8a1a4d2c19c41e31dfb3f2a1}{set\+Priceof\+Graphite}} (double)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_production_ac6bc16863f128802bebbb52263d5558c}{priceof\+Wood}}
+\item 
+double \mbox{\hyperlink{class_production_afca6aca1df88921b60bb7190adab5d51}{priceof\+Graphite}}
+\item 
+double \mbox{\hyperlink{class_production_a5d77a106ee08bfb55522cdd28e0d364e}{numberof\+Wood}}
+\item 
+double \mbox{\hyperlink{class_production_a3b0d11cefec32eeec83637e1d5252a41}{numberof\+Graphite}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_production_a12c7c685be71ed51ac10f7d0284e8d4f}\label{class_production_a12c7c685be71ed51ac10f7d0284e8d4f}} 
+\index{Production@{Production}!Production@{Production}}
+\index{Production@{Production}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{Production()}{Production()}}
+{\footnotesize\ttfamily Production\+::\+Production (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_production_adf62fb3241254aa3412ed9a9d1fb27a2}\label{class_production_adf62fb3241254aa3412ed9a9d1fb27a2}} 
+\index{Production@{Production}!buyGraphite@{buyGraphite}}
+\index{buyGraphite@{buyGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{buyGraphite()}{buyGraphite()}}
+{\footnotesize\ttfamily void Production\+::buy\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to buy Graphite if there is enough balance \mbox{\Hypertarget{class_production_a5eea7af1f4949832bcc0c019f420d655}\label{class_production_a5eea7af1f4949832bcc0c019f420d655}} 
+\index{Production@{Production}!buyWood@{buyWood}}
+\index{buyWood@{buyWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{buyWood()}{buyWood()}}
+{\footnotesize\ttfamily void Production\+::buy\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to buy wood if there is enough balance \mbox{\Hypertarget{class_production_a4a9bbd94b71b1d24d836d9ad79bed97b}\label{class_production_a4a9bbd94b71b1d24d836d9ad79bed97b}} 
+\index{Production@{Production}!calculatePrices@{calculatePrices}}
+\index{calculatePrices@{calculatePrices}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{calculatePrices()}{calculatePrices()}}
+{\footnotesize\ttfamily void Production\+::calculate\+Prices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to calculate price of Wood and Graphite. Price of Wood and Graphite is a random number between 1000 to 2000.
+
+Price of Graphite is a random number between 1500 to 2500.\mbox{\Hypertarget{class_production_aa5180ed4aac0e3d8ecec30596c9b1751}\label{class_production_aa5180ed4aac0e3d8ecec30596c9b1751}} 
+\index{Production@{Production}!decreaseGraphite@{decreaseGraphite}}
+\index{decreaseGraphite@{decreaseGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{decreaseGraphite()}{decreaseGraphite()}}
+{\footnotesize\ttfamily void Production\+::decrease\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_a42c46b93e65cb3f84db76562a27d44f6}\label{class_production_a42c46b93e65cb3f84db76562a27d44f6}} 
+\index{Production@{Production}!decreaseWood@{decreaseWood}}
+\index{decreaseWood@{decreaseWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{decreaseWood()}{decreaseWood()}}
+{\footnotesize\ttfamily void Production\+::decrease\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_a4c87c63f0fdc741f9185dcda6793463e}\label{class_production_a4c87c63f0fdc741f9185dcda6793463e}} 
+\index{Production@{Production}!disable\_buyGraphite@{disable\_buyGraphite}}
+\index{disable\_buyGraphite@{disable\_buyGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{disable\_buyGraphite()}{disable\_buyGraphite()}}
+{\footnotesize\ttfamily bool Production\+::disable\+\_\+buy\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_a5f5c38b7f3f7b23f9029d562c7e53025}\label{class_production_a5f5c38b7f3f7b23f9029d562c7e53025}} 
+\index{Production@{Production}!disable\_buyWood@{disable\_buyWood}}
+\index{disable\_buyWood@{disable\_buyWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{disable\_buyWood()}{disable\_buyWood()}}
+{\footnotesize\ttfamily bool Production\+::disable\+\_\+buy\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_ad8e6b675848c58fcf04e214e383a87fd}\label{class_production_ad8e6b675848c58fcf04e214e383a87fd}} 
+\index{Production@{Production}!getGraphite@{getGraphite}}
+\index{getGraphite@{getGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{getGraphite()}{getGraphite()}}
+{\footnotesize\ttfamily double Production\+::get\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_a01b5f30d1f8b8495acdd2f82a10fcca0}\label{class_production_a01b5f30d1f8b8495acdd2f82a10fcca0}} 
+\index{Production@{Production}!getPriceofGraphite@{getPriceofGraphite}}
+\index{getPriceofGraphite@{getPriceofGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{getPriceofGraphite()}{getPriceofGraphite()}}
+{\footnotesize\ttfamily double Production\+::get\+Priceof\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_a70bbadd925940b1aba0d6c34be50ad39}\label{class_production_a70bbadd925940b1aba0d6c34be50ad39}} 
+\index{Production@{Production}!getPriceofWood@{getPriceofWood}}
+\index{getPriceofWood@{getPriceofWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{getPriceofWood()}{getPriceofWood()}}
+{\footnotesize\ttfamily double Production\+::get\+Priceof\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_a8991aa503f8d94ae01ff9b7f08043c58}\label{class_production_a8991aa503f8d94ae01ff9b7f08043c58}} 
+\index{Production@{Production}!getWood@{getWood}}
+\index{getWood@{getWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{getWood()}{getWood()}}
+{\footnotesize\ttfamily double Production\+::get\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_ac736ce575ed9305158455109cf32fae1}\label{class_production_ac736ce575ed9305158455109cf32fae1}} 
+\index{Production@{Production}!setGraphite@{setGraphite}}
+\index{setGraphite@{setGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{setGraphite()}{setGraphite()}}
+{\footnotesize\ttfamily void Production\+::set\+Graphite (\begin{DoxyParamCaption}\item[{double}]{new\+Graphite }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_aa51b01bb8a1a4d2c19c41e31dfb3f2a1}\label{class_production_aa51b01bb8a1a4d2c19c41e31dfb3f2a1}} 
+\index{Production@{Production}!setPriceofGraphite@{setPriceofGraphite}}
+\index{setPriceofGraphite@{setPriceofGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{setPriceofGraphite()}{setPriceofGraphite()}}
+{\footnotesize\ttfamily void Production\+::set\+Priceof\+Graphite (\begin{DoxyParamCaption}\item[{double}]{new\+Priceof\+Graphite }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_a6419877e3731ea2729064ae356294944}\label{class_production_a6419877e3731ea2729064ae356294944}} 
+\index{Production@{Production}!setPriceofWood@{setPriceofWood}}
+\index{setPriceofWood@{setPriceofWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{setPriceofWood()}{setPriceofWood()}}
+{\footnotesize\ttfamily void Production\+::set\+Priceof\+Wood (\begin{DoxyParamCaption}\item[{double}]{new\+Priceof\+Wood }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_production_ad3ebe0056885c80b4fce4f13d449fe4a}\label{class_production_ad3ebe0056885c80b4fce4f13d449fe4a}} 
+\index{Production@{Production}!setWood@{setWood}}
+\index{setWood@{setWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{setWood()}{setWood()}}
+{\footnotesize\ttfamily void Production\+::set\+Wood (\begin{DoxyParamCaption}\item[{double}]{new\+Wood }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_production_a3b0d11cefec32eeec83637e1d5252a41}\label{class_production_a3b0d11cefec32eeec83637e1d5252a41}} 
+\index{Production@{Production}!numberofGraphite@{numberofGraphite}}
+\index{numberofGraphite@{numberofGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{numberofGraphite}{numberofGraphite}}
+{\footnotesize\ttfamily double Production\+::numberof\+Graphite}
+
+\mbox{\Hypertarget{class_production_a5d77a106ee08bfb55522cdd28e0d364e}\label{class_production_a5d77a106ee08bfb55522cdd28e0d364e}} 
+\index{Production@{Production}!numberofWood@{numberofWood}}
+\index{numberofWood@{numberofWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{numberofWood}{numberofWood}}
+{\footnotesize\ttfamily double Production\+::numberof\+Wood}
+
+\mbox{\Hypertarget{class_production_afca6aca1df88921b60bb7190adab5d51}\label{class_production_afca6aca1df88921b60bb7190adab5d51}} 
+\index{Production@{Production}!priceofGraphite@{priceofGraphite}}
+\index{priceofGraphite@{priceofGraphite}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{priceofGraphite}{priceofGraphite}}
+{\footnotesize\ttfamily double Production\+::priceof\+Graphite}
+
+\mbox{\Hypertarget{class_production_ac6bc16863f128802bebbb52263d5558c}\label{class_production_ac6bc16863f128802bebbb52263d5558c}} 
+\index{Production@{Production}!priceofWood@{priceofWood}}
+\index{priceofWood@{priceofWood}!Production@{Production}}
+\doxysubsubsection{\texorpdfstring{priceofWood}{priceofWood}}
+{\footnotesize\ttfamily double Production\+::priceof\+Wood}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{production_8h}{production.\+h}}\item 
+\mbox{\hyperlink{production_8cpp}{production.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,149 @@
+\hypertarget{classscores}{}\doxysection{scores Class Reference}
+\label{classscores}\index{scores@{scores}}
+
+
+A singleton class which represents scores screen G\+UI class.  
+
+
+
+
+{\ttfamily \#include $<$scores.\+h$>$}
+
+Inheritance diagram for scores\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classscores}
+\end{center}
+\end{figure}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classscores_a210f9fa09fd597ce2add4b49b54aa442}{back\+Clicked}} ()
+\begin{DoxyCompactList}\small\item\em emits this signal when back button is clicked in the UI to get back to homescreen \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classscores_a6d0cf91d0c345eff17e7034908240fac}{scores}} (Q\+Widget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em constructor of the scores class \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classscores_ad08ce5fc0f3fb46242afb523f006d4f1}{getscores}} (string link)
+\begin{DoxyCompactList}\small\item\em function to get scores from the server \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classscores_aec43a4a7317c2e6c68d853bf18a849ad}{presentscores}} (string \mbox{\hyperlink{classscores}{scores}})
+\begin{DoxyCompactList}\small\item\em function to display the scores in the UI after we get scores from the server \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classscores_a85cce77d17e98fdc913536b951efe7a6}{$\sim$scores}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classscores_a50d0d8235a67631e6555b59103ad0961}{on\+\_\+goback\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em function that will take action when back button is clicked on the UI \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classscores_a4da6dcf18d696fffb4a28d511e5ee9fd}{getaddress}} ()
+\begin{DoxyCompactList}\small\item\em function to get link of the server \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::scores $\ast$ \mbox{\hyperlink{classscores_a217d90e6fe307e39c3e023f4bf7d1a22}{ui}}
+\begin{DoxyCompactList}\small\item\em pointer to the UI \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A singleton class which represents scores screen G\+UI class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classscores_a6d0cf91d0c345eff17e7034908240fac}\label{classscores_a6d0cf91d0c345eff17e7034908240fac}} 
+\index{scores@{scores}!scores@{scores}}
+\index{scores@{scores}!scores@{scores}}
+\doxysubsubsection{\texorpdfstring{scores()}{scores()}}
+{\footnotesize\ttfamily scores\+::scores (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+constructor of the scores class 
+
+\mbox{\Hypertarget{classscores_a85cce77d17e98fdc913536b951efe7a6}\label{classscores_a85cce77d17e98fdc913536b951efe7a6}} 
+\index{scores@{scores}!````~scores@{$\sim$scores}}
+\index{````~scores@{$\sim$scores}!scores@{scores}}
+\doxysubsubsection{\texorpdfstring{$\sim$scores()}{~scores()}}
+{\footnotesize\ttfamily scores\+::$\sim$scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+destructor of the scoreboad class 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classscores_a210f9fa09fd597ce2add4b49b54aa442}\label{classscores_a210f9fa09fd597ce2add4b49b54aa442}} 
+\index{scores@{scores}!backClicked@{backClicked}}
+\index{backClicked@{backClicked}!scores@{scores}}
+\doxysubsubsection{\texorpdfstring{backClicked}{backClicked}}
+{\footnotesize\ttfamily void scores\+::back\+Clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+emits this signal when back button is clicked in the UI to get back to homescreen 
+
+\mbox{\Hypertarget{classscores_a4da6dcf18d696fffb4a28d511e5ee9fd}\label{classscores_a4da6dcf18d696fffb4a28d511e5ee9fd}} 
+\index{scores@{scores}!getaddress@{getaddress}}
+\index{getaddress@{getaddress}!scores@{scores}}
+\doxysubsubsection{\texorpdfstring{getaddress}{getaddress}}
+{\footnotesize\ttfamily void scores\+::getaddress (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+function to get link of the server 
+
+\mbox{\Hypertarget{classscores_ad08ce5fc0f3fb46242afb523f006d4f1}\label{classscores_ad08ce5fc0f3fb46242afb523f006d4f1}} 
+\index{scores@{scores}!getscores@{getscores}}
+\index{getscores@{getscores}!scores@{scores}}
+\doxysubsubsection{\texorpdfstring{getscores()}{getscores()}}
+{\footnotesize\ttfamily void scores\+::getscores (\begin{DoxyParamCaption}\item[{string}]{link }\end{DoxyParamCaption})}
+
+
+
+function to get scores from the server 
+
+
+\begin{DoxyParams}{Parameters}
+{\em link} & is the website link from where we get scores \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classscores_a50d0d8235a67631e6555b59103ad0961}\label{classscores_a50d0d8235a67631e6555b59103ad0961}} 
+\index{scores@{scores}!on\_goback\_clicked@{on\_goback\_clicked}}
+\index{on\_goback\_clicked@{on\_goback\_clicked}!scores@{scores}}
+\doxysubsubsection{\texorpdfstring{on\_goback\_clicked}{on\_goback\_clicked}}
+{\footnotesize\ttfamily void scores\+::on\+\_\+goback\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+function that will take action when back button is clicked on the UI 
+
+\mbox{\Hypertarget{classscores_aec43a4a7317c2e6c68d853bf18a849ad}\label{classscores_aec43a4a7317c2e6c68d853bf18a849ad}} 
+\index{scores@{scores}!presentscores@{presentscores}}
+\index{presentscores@{presentscores}!scores@{scores}}
+\doxysubsubsection{\texorpdfstring{presentscores()}{presentscores()}}
+{\footnotesize\ttfamily void scores\+::presentscores (\begin{DoxyParamCaption}\item[{string}]{scores }\end{DoxyParamCaption})}
+
+
+
+function to display the scores in the UI after we get scores from the server 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scores} & is the json string that we get from the server \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classscores_a217d90e6fe307e39c3e023f4bf7d1a22}\label{classscores_a217d90e6fe307e39c3e023f4bf7d1a22}} 
+\index{scores@{scores}!ui@{ui}}
+\index{ui@{ui}!scores@{scores}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::scores$\ast$ scores\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+pointer to the UI 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{scores_8h}{scores.\+h}}\item 
+\mbox{\hyperlink{scores_8cpp}{scores.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,368 @@
+\hypertarget{class_main_window}{}\doxysection{Main\+Window Class Reference}
+\label{class_main_window}\index{MainWindow@{MainWindow}}
+
+
+{\ttfamily \#include $<$mainwindow.\+h$>$}
+
+Inheritance diagram for Main\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_main_window}
+\end{center}
+\end{figure}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_main_window_ad7e7d2bddfdd5a1508e083c9b8fc4fc9}{quit\+Clicked}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_main_window_a996c5a2b6f77944776856f08ec30858d}{Main\+Window}} (Q\+Widget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Mainwindow constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{$\sim$\+Main\+Window}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a692f2f28196cc9ee41b10e89c5d32922}{load}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a02076de46e6810174817ebfc6ddd2be5}{reset}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a4c1854e439c194566ee4b30c00f47145}{upload}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a3ba1a371fb10e731ae0926ae85efeb4f}{save}} ()
+\item 
+string \mbox{\hyperlink{class_main_window_a01fa23699f29ae7beb39f4359ceb0799}{getlink}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Timer $\ast$ \mbox{\hyperlink{class_main_window_a356578805ed1248a7f2807434cb0e5ee}{timer}} = new Q\+Timer(this)
+\item 
+Q\+Timer $\ast$ \mbox{\hyperlink{class_main_window_a15200029364d5f602cde7480644f24d7}{pencil\+Seller}} = new Q\+Timer(this)
+\item 
+Q\+Timer $\ast$ \mbox{\hyperlink{class_main_window_a6af49fdf1d3647aa7321fe44e277bc75}{timer\+Fast}} = new Q\+Timer(this)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_main_window_a01b6ff5f83460855e5125c0a77a4018d}{on\+\_\+make\+Pencil\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_ae82d6db3dd5e52b5e5038b5356fd5ff9}{runner}} ()
+\begin{DoxyCompactList}\small\item\em Function that updates ui labels every fraction of a second. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_main_window_a4dc23fc3239af6ef699297e092f833cd}{seller}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_af88e0bdbc0edab9e04408b3b07419add}{apm2\+Seller}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_abbb5a286404d3bf211caa780c5a8a89e}{calculate\+Prices}} ()
+\begin{DoxyCompactList}\small\item\em Function to calculate prices of graphite and wood every 5 second. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_main_window_ae1119f4dd89b05aac5fca1bd3e1d6d8f}{generate\+Intelligence}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_ac1ccd307bacd96f814bc13e5c9307937}{on\+\_\+buy\+Wood\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a60acb5ba769483317adf8a1ad8c9af27}{on\+\_\+buy\+Graphite\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_acf4255896c256da2f20bf64dfc8eb38e}{on\+\_\+buy\+Apm\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a11a5ea81ab734b95e7b612b788bd0740}{on\+\_\+upgrade\+Apm\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a8d78bab624841d0cab89e03c7c3c1a61}{checkbuttons}} ()
+\begin{DoxyCompactList}\small\item\em Function to check which buttons need to be disabled. $\ast$/. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_main_window_abdae9993c46fa9220b7ee20a8fc54741}{check\+\_\+upgrade\+Apm}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_afce8692f1f157355e429ffae9ea94f38}{on\+\_\+increase\+Pencil\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a5e1710322c48fb39fd18109e4d8df1a0}{on\+\_\+decrease\+Pencil\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a9ae22c43301a0b3cd154b1b316cb97a5}{on\+\_\+save\+State\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_ac6dfbdb33ad785e763714b27a8d0736c}{on\+\_\+load\+State\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_afaccbda67117043fddc2a80e85094481}{on\+\_\+debug\+Balance\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Debug Tool Buttons. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_main_window_a1a12e8aa8ded88bd38723c01e30c0cb1}{on\+\_\+debug\+Pencils\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_aa71a9ed16be7c4108fe03d1145326ef8}{on\+\_\+debug\+Total\+Pencils\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a2cbba32528407ad4f29c3265a8bc5d8c}{on\+\_\+debug\+Wood\+Graphite\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a96a4f21ea4e5f167c46197e1533f45e3}{on\+\_\+upgrade\+Marketing\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a4de79c63c7fa0b8d7c468ac71f20be81}{on\+\_\+push\+Button\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a0c2e626c3a342208ee65e9fdd0048905}{on\+\_\+inc\+I\+N\+T\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_a51921af5cd3f5d4ba6a3abcbe4d82278}{on\+\_\+inc\+M\+A\+R\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_main_window_abb4e463ef8c4a21a1e3e584f66155fd2}{on\+\_\+info\+\_\+clicked}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Main\+Window $\ast$ \mbox{\hyperlink{class_main_window_a35466a70ed47252a0191168126a352a5}{ui}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_main_window_a996c5a2b6f77944776856f08ec30858d}\label{class_main_window_a996c5a2b6f77944776856f08ec30858d}} 
+\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{MainWindow()}{MainWindow()}}
+{\footnotesize\ttfamily Main\+Window\+::\+Main\+Window (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Mainwindow constructor. 
+
+Label is set to display as soon as the \mbox{\hyperlink{class_main_window}{Main\+Window}} class is constructed
+
+Timer initialization
+
+This timer is used for calculating prices of graphite and wood every 5 sec.
+
+Buttons and labels to be hidden initially\mbox{\Hypertarget{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}\label{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}} 
+\index{MainWindow@{MainWindow}!````~MainWindow@{$\sim$MainWindow}}
+\index{````~MainWindow@{$\sim$MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{$\sim$MainWindow()}{~MainWindow()}}
+{\footnotesize\ttfamily Main\+Window\+::$\sim$\+Main\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_main_window_af88e0bdbc0edab9e04408b3b07419add}\label{class_main_window_af88e0bdbc0edab9e04408b3b07419add}} 
+\index{MainWindow@{MainWindow}!apm2Seller@{apm2Seller}}
+\index{apm2Seller@{apm2Seller}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{apm2Seller}{apm2Seller}}
+{\footnotesize\ttfamily void Main\+Window\+::apm2\+Seller (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_abbb5a286404d3bf211caa780c5a8a89e}\label{class_main_window_abbb5a286404d3bf211caa780c5a8a89e}} 
+\index{MainWindow@{MainWindow}!calculatePrices@{calculatePrices}}
+\index{calculatePrices@{calculatePrices}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{calculatePrices}{calculatePrices}}
+{\footnotesize\ttfamily void Main\+Window\+::calculate\+Prices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Function to calculate prices of graphite and wood every 5 second. 
+
+\mbox{\Hypertarget{class_main_window_abdae9993c46fa9220b7ee20a8fc54741}\label{class_main_window_abdae9993c46fa9220b7ee20a8fc54741}} 
+\index{MainWindow@{MainWindow}!check\_upgradeApm@{check\_upgradeApm}}
+\index{check\_upgradeApm@{check\_upgradeApm}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{check\_upgradeApm}{check\_upgradeApm}}
+{\footnotesize\ttfamily void Main\+Window\+::check\+\_\+upgrade\+Apm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a8d78bab624841d0cab89e03c7c3c1a61}\label{class_main_window_a8d78bab624841d0cab89e03c7c3c1a61}} 
+\index{MainWindow@{MainWindow}!checkbuttons@{checkbuttons}}
+\index{checkbuttons@{checkbuttons}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{checkbuttons}{checkbuttons}}
+{\footnotesize\ttfamily void Main\+Window\+::checkbuttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Function to check which buttons need to be disabled. $\ast$/. 
+
+Prevent the user from setting the price lower than 0\mbox{\Hypertarget{class_main_window_ae1119f4dd89b05aac5fca1bd3e1d6d8f}\label{class_main_window_ae1119f4dd89b05aac5fca1bd3e1d6d8f}} 
+\index{MainWindow@{MainWindow}!generateIntelligence@{generateIntelligence}}
+\index{generateIntelligence@{generateIntelligence}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{generateIntelligence}{generateIntelligence}}
+{\footnotesize\ttfamily void Main\+Window\+::generate\+Intelligence (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Start generating intelligence after
+
+total pencils manafactured reaches 3000
+
+Marketing unlocks when intelligence does.\mbox{\Hypertarget{class_main_window_a01fa23699f29ae7beb39f4359ceb0799}\label{class_main_window_a01fa23699f29ae7beb39f4359ceb0799}} 
+\index{MainWindow@{MainWindow}!getlink@{getlink}}
+\index{getlink@{getlink}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{getlink()}{getlink()}}
+{\footnotesize\ttfamily string Main\+Window\+::getlink (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_main_window_a692f2f28196cc9ee41b10e89c5d32922}\label{class_main_window_a692f2f28196cc9ee41b10e89c5d32922}} 
+\index{MainWindow@{MainWindow}!load@{load}}
+\index{load@{load}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily void Main\+Window\+::load (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_main_window_acf4255896c256da2f20bf64dfc8eb38e}\label{class_main_window_acf4255896c256da2f20bf64dfc8eb38e}} 
+\index{MainWindow@{MainWindow}!on\_buyApm\_clicked@{on\_buyApm\_clicked}}
+\index{on\_buyApm\_clicked@{on\_buyApm\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_buyApm\_clicked}{on\_buyApm\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+buy\+Apm\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a60acb5ba769483317adf8a1ad8c9af27}\label{class_main_window_a60acb5ba769483317adf8a1ad8c9af27}} 
+\index{MainWindow@{MainWindow}!on\_buyGraphite\_clicked@{on\_buyGraphite\_clicked}}
+\index{on\_buyGraphite\_clicked@{on\_buyGraphite\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_buyGraphite\_clicked}{on\_buyGraphite\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+buy\+Graphite\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_ac1ccd307bacd96f814bc13e5c9307937}\label{class_main_window_ac1ccd307bacd96f814bc13e5c9307937}} 
+\index{MainWindow@{MainWindow}!on\_buyWood\_clicked@{on\_buyWood\_clicked}}
+\index{on\_buyWood\_clicked@{on\_buyWood\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_buyWood\_clicked}{on\_buyWood\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+buy\+Wood\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_afaccbda67117043fddc2a80e85094481}\label{class_main_window_afaccbda67117043fddc2a80e85094481}} 
+\index{MainWindow@{MainWindow}!on\_debugBalance\_clicked@{on\_debugBalance\_clicked}}
+\index{on\_debugBalance\_clicked@{on\_debugBalance\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_debugBalance\_clicked}{on\_debugBalance\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+debug\+Balance\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Debug Tool Buttons. 
+
+\mbox{\Hypertarget{class_main_window_a1a12e8aa8ded88bd38723c01e30c0cb1}\label{class_main_window_a1a12e8aa8ded88bd38723c01e30c0cb1}} 
+\index{MainWindow@{MainWindow}!on\_debugPencils\_clicked@{on\_debugPencils\_clicked}}
+\index{on\_debugPencils\_clicked@{on\_debugPencils\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_debugPencils\_clicked}{on\_debugPencils\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+debug\+Pencils\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_aa71a9ed16be7c4108fe03d1145326ef8}\label{class_main_window_aa71a9ed16be7c4108fe03d1145326ef8}} 
+\index{MainWindow@{MainWindow}!on\_debugTotalPencils\_clicked@{on\_debugTotalPencils\_clicked}}
+\index{on\_debugTotalPencils\_clicked@{on\_debugTotalPencils\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_debugTotalPencils\_clicked}{on\_debugTotalPencils\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+debug\+Total\+Pencils\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a2cbba32528407ad4f29c3265a8bc5d8c}\label{class_main_window_a2cbba32528407ad4f29c3265a8bc5d8c}} 
+\index{MainWindow@{MainWindow}!on\_debugWoodGraphite\_clicked@{on\_debugWoodGraphite\_clicked}}
+\index{on\_debugWoodGraphite\_clicked@{on\_debugWoodGraphite\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_debugWoodGraphite\_clicked}{on\_debugWoodGraphite\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+debug\+Wood\+Graphite\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a5e1710322c48fb39fd18109e4d8df1a0}\label{class_main_window_a5e1710322c48fb39fd18109e4d8df1a0}} 
+\index{MainWindow@{MainWindow}!on\_decreasePencil\_clicked@{on\_decreasePencil\_clicked}}
+\index{on\_decreasePencil\_clicked@{on\_decreasePencil\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_decreasePencil\_clicked}{on\_decreasePencil\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+decrease\+Pencil\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a0c2e626c3a342208ee65e9fdd0048905}\label{class_main_window_a0c2e626c3a342208ee65e9fdd0048905}} 
+\index{MainWindow@{MainWindow}!on\_incINT\_clicked@{on\_incINT\_clicked}}
+\index{on\_incINT\_clicked@{on\_incINT\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_incINT\_clicked}{on\_incINT\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+inc\+I\+N\+T\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a51921af5cd3f5d4ba6a3abcbe4d82278}\label{class_main_window_a51921af5cd3f5d4ba6a3abcbe4d82278}} 
+\index{MainWindow@{MainWindow}!on\_incMAR\_clicked@{on\_incMAR\_clicked}}
+\index{on\_incMAR\_clicked@{on\_incMAR\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_incMAR\_clicked}{on\_incMAR\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+inc\+M\+A\+R\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_afce8692f1f157355e429ffae9ea94f38}\label{class_main_window_afce8692f1f157355e429ffae9ea94f38}} 
+\index{MainWindow@{MainWindow}!on\_increasePencil\_clicked@{on\_increasePencil\_clicked}}
+\index{on\_increasePencil\_clicked@{on\_increasePencil\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_increasePencil\_clicked}{on\_increasePencil\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+increase\+Pencil\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_abb4e463ef8c4a21a1e3e584f66155fd2}\label{class_main_window_abb4e463ef8c4a21a1e3e584f66155fd2}} 
+\index{MainWindow@{MainWindow}!on\_info\_clicked@{on\_info\_clicked}}
+\index{on\_info\_clicked@{on\_info\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_info\_clicked}{on\_info\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+info\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_ac6dfbdb33ad785e763714b27a8d0736c}\label{class_main_window_ac6dfbdb33ad785e763714b27a8d0736c}} 
+\index{MainWindow@{MainWindow}!on\_loadState\_clicked@{on\_loadState\_clicked}}
+\index{on\_loadState\_clicked@{on\_loadState\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_loadState\_clicked}{on\_loadState\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+load\+State\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a01b6ff5f83460855e5125c0a77a4018d}\label{class_main_window_a01b6ff5f83460855e5125c0a77a4018d}} 
+\index{MainWindow@{MainWindow}!on\_makePencil\_clicked@{on\_makePencil\_clicked}}
+\index{on\_makePencil\_clicked@{on\_makePencil\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_makePencil\_clicked}{on\_makePencil\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+make\+Pencil\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a4de79c63c7fa0b8d7c468ac71f20be81}\label{class_main_window_a4de79c63c7fa0b8d7c468ac71f20be81}} 
+\index{MainWindow@{MainWindow}!on\_pushButton\_clicked@{on\_pushButton\_clicked}}
+\index{on\_pushButton\_clicked@{on\_pushButton\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_pushButton\_clicked}{on\_pushButton\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+push\+Button\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a9ae22c43301a0b3cd154b1b316cb97a5}\label{class_main_window_a9ae22c43301a0b3cd154b1b316cb97a5}} 
+\index{MainWindow@{MainWindow}!on\_saveState\_clicked@{on\_saveState\_clicked}}
+\index{on\_saveState\_clicked@{on\_saveState\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_saveState\_clicked}{on\_saveState\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+save\+State\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a11a5ea81ab734b95e7b612b788bd0740}\label{class_main_window_a11a5ea81ab734b95e7b612b788bd0740}} 
+\index{MainWindow@{MainWindow}!on\_upgradeApm\_clicked@{on\_upgradeApm\_clicked}}
+\index{on\_upgradeApm\_clicked@{on\_upgradeApm\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_upgradeApm\_clicked}{on\_upgradeApm\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+upgrade\+Apm\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a96a4f21ea4e5f167c46197e1533f45e3}\label{class_main_window_a96a4f21ea4e5f167c46197e1533f45e3}} 
+\index{MainWindow@{MainWindow}!on\_upgradeMarketing\_clicked@{on\_upgradeMarketing\_clicked}}
+\index{on\_upgradeMarketing\_clicked@{on\_upgradeMarketing\_clicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{on\_upgradeMarketing\_clicked}{on\_upgradeMarketing\_clicked}}
+{\footnotesize\ttfamily void Main\+Window\+::on\+\_\+upgrade\+Marketing\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_ad7e7d2bddfdd5a1508e083c9b8fc4fc9}\label{class_main_window_ad7e7d2bddfdd5a1508e083c9b8fc4fc9}} 
+\index{MainWindow@{MainWindow}!quitClicked@{quitClicked}}
+\index{quitClicked@{quitClicked}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{quitClicked}{quitClicked}}
+{\footnotesize\ttfamily void Main\+Window\+::quit\+Clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_main_window_a02076de46e6810174817ebfc6ddd2be5}\label{class_main_window_a02076de46e6810174817ebfc6ddd2be5}} 
+\index{MainWindow@{MainWindow}!reset@{reset}}
+\index{reset@{reset}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void Main\+Window\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_main_window_ae82d6db3dd5e52b5e5038b5356fd5ff9}\label{class_main_window_ae82d6db3dd5e52b5e5038b5356fd5ff9}} 
+\index{MainWindow@{MainWindow}!runner@{runner}}
+\index{runner@{runner}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{runner}{runner}}
+{\footnotesize\ttfamily void Main\+Window\+::runner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Function that updates ui labels every fraction of a second. 
+
+\mbox{\Hypertarget{class_main_window_a3ba1a371fb10e731ae0926ae85efeb4f}\label{class_main_window_a3ba1a371fb10e731ae0926ae85efeb4f}} 
+\index{MainWindow@{MainWindow}!save@{save}}
+\index{save@{save}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Main\+Window\+::save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_main_window_a4dc23fc3239af6ef699297e092f833cd}\label{class_main_window_a4dc23fc3239af6ef699297e092f833cd}} 
+\index{MainWindow@{MainWindow}!seller@{seller}}
+\index{seller@{seller}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{seller}{seller}}
+{\footnotesize\ttfamily void Main\+Window\+::seller (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Function to sell pencils continuously according to rate \mbox{\Hypertarget{class_main_window_a4c1854e439c194566ee4b30c00f47145}\label{class_main_window_a4c1854e439c194566ee4b30c00f47145}} 
+\index{MainWindow@{MainWindow}!upload@{upload}}
+\index{upload@{upload}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{upload()}{upload()}}
+{\footnotesize\ttfamily void Main\+Window\+::upload (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_main_window_a15200029364d5f602cde7480644f24d7}\label{class_main_window_a15200029364d5f602cde7480644f24d7}} 
+\index{MainWindow@{MainWindow}!pencilSeller@{pencilSeller}}
+\index{pencilSeller@{pencilSeller}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{pencilSeller}{pencilSeller}}
+{\footnotesize\ttfamily Q\+Timer$\ast$ Main\+Window\+::pencil\+Seller = new Q\+Timer(this)}
+
+\mbox{\Hypertarget{class_main_window_a356578805ed1248a7f2807434cb0e5ee}\label{class_main_window_a356578805ed1248a7f2807434cb0e5ee}} 
+\index{MainWindow@{MainWindow}!timer@{timer}}
+\index{timer@{timer}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{timer}{timer}}
+{\footnotesize\ttfamily Q\+Timer$\ast$ Main\+Window\+::timer = new Q\+Timer(this)}
+
+\mbox{\Hypertarget{class_main_window_a6af49fdf1d3647aa7321fe44e277bc75}\label{class_main_window_a6af49fdf1d3647aa7321fe44e277bc75}} 
+\index{MainWindow@{MainWindow}!timerFast@{timerFast}}
+\index{timerFast@{timerFast}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{timerFast}{timerFast}}
+{\footnotesize\ttfamily Q\+Timer$\ast$ Main\+Window\+::timer\+Fast = new Q\+Timer(this)}
+
+\mbox{\Hypertarget{class_main_window_a35466a70ed47252a0191168126a352a5}\label{class_main_window_a35466a70ed47252a0191168126a352a5}} 
+\index{MainWindow@{MainWindow}!ui@{ui}}
+\index{ui@{ui}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Main\+Window$\ast$ Main\+Window\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{mainwindow_8h}{mainwindow.\+h}}\item 
+\mbox{\hyperlink{mainwindow_8cpp}{mainwindow.\+cpp}}\end{DoxyCompactItemize}
