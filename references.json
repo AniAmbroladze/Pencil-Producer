@@ -1,0 +1,36 @@
+{
+    "online-references":
+    [
+        {
+            "url": "https://github.com/google/googletest/blob/master/googlemock/docs/CheatSheet.md",
+            "contribution": "Google Test Documentation",
+            "file": "tests.cpp & CMakeLists.txt"
+        },
+        {
+            "url": "https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html",
+            "contribution": "Google Test Walktrhough",
+            "file": "tests.cpp & CMakeLists.txt"
+        },
+        {
+            "url": "https://doc.qt.io/qt-5/qtimer.html",
+            "contribution": "Timer function in QT",
+            "file": "mainwindow.cpp & .h"
+        },
+        {
+            "url": "https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum",
+            "contribution": "QMessageBox Class",
+            "file": "mainwindow.cpp & pencil.cpp"
+        },
+	{
+            "url": "https://doc.qt.io/archives/qt-4.8/qabstractbutton.html",
+            "contribution": "QAbstractButton Class",
+            "file": "mainwindow.cpp"
+        },
+	{
+            "url": "https://doc.qt.io/qt-5/qpixmap.html",
+            "contribution": "QPixmap for Qlabel",
+            "file": "startform.ui"
+        }
+
+    ]
+}
