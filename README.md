@@ -1,5 +1,7 @@
 # Game: Pencil Producer
-Software Enginerring 
+
+Software Engineering 
+
 Prof. Peter Baumann
 
 ## Required Packages
