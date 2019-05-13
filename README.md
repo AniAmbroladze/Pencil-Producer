@@ -1,6 +1,6 @@
 # Game: Pencil Producer
 
-Software Engineering
+**Software Engineering**
 
 Jacobs University, Spring Semester 2019
 
