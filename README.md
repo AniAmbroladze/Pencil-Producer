@@ -1,8 +1,10 @@
 # Game: Pencil Producer
 
-Software Engineering 
+Software Engineering
 
-Prof. Peter Baumann
+Jacobs University, Spring Semester 2019
+
+Prof. Dr. Peter Baumann
 
 ## Required Packages
 - GNU C++: [Download Here](https://gcc.gnu.org/install/)
