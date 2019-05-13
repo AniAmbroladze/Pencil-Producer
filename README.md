@@ -1,5 +1,6 @@
 # Game: Pencil Producer
-
+Software Enginerring 
+Prof. Peter Baumann
 
 ## Required Packages
 - GNU C++: [Download Here](https://gcc.gnu.org/install/)
